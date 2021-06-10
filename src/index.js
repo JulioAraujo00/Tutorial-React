@@ -97,7 +97,7 @@ class Game extends React.Component {
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
         </li>
       );
-    });
+    })
 
     let status;
     if (winner) {
